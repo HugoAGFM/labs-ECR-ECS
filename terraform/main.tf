@@ -15,7 +15,6 @@ resource "aws_ecr_repository" "ecr" {
   name         = "container-images-repo"
   force_delete = true
 
-
   image_scanning_configuration {
     scan_on_push = true
   }
